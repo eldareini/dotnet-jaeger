@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jaegerdemoapp-deployment
+  # namespace: test
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: jaegerdemoapp
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: jaegerdemoapp
+    spec:
+      hostAliases:
+        - ip: "192.168.1.148"
+          hostnames:
+            - "localhost"
+      containers:
+        - name: jaegerdemoapp
+          image: eldardocker15/jaegerdemoapp:latest
+          imagePullPolicy: Always 
+          env:
+            - name: OTEL_EXPORTER_OTLP_ENDPOINT
+              value: http://localhost:4317
+            - name: OTEL_ACTIVITY_TAG_KEY
+              value: tag key
+            - name: OTEL_ACTIVITY_TAG_VALUE
+              value: tag value
+            - name: OTEL_ACTIVITY_EVENT_VALUE
+              value: event value
+            - name: OTEL_ACTIVITY_URL_VALUE
+              value: http://httpbin.org/get

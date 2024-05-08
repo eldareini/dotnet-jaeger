@@ -1,0 +1,7 @@
+/Users/talsasson/Jaeger/getting-started-jaeger/obj/Debug/net6.0/getting-started-jaeger.csproj.AssemblyReference.cache
+/Users/talsasson/Jaeger/getting-started-jaeger/obj/Debug/net6.0/getting-started-jaeger.GeneratedMSBuildEditorConfig.editorconfig
+/Users/talsasson/Jaeger/getting-started-jaeger/obj/Debug/net6.0/getting-started-jaeger.AssemblyInfoInputs.cache
+/Users/talsasson/Jaeger/getting-started-jaeger/obj/Debug/net6.0/getting-started-jaeger.AssemblyInfo.cs
+/Users/talsasson/Jaeger/getting-started-jaeger/obj/Debug/net6.0/getting-started-jaeger.csproj.CoreCompileInputs.cache
+/Users/talsasson/Jaeger/getting-started-jaeger/obj/Debug/net6.0/getting-started-jaeger.MvcApplicationPartsAssemblyInfo.cs
+/Users/talsasson/Jaeger/getting-started-jaeger/obj/Debug/net6.0/getting-started-jaeger.MvcApplicationPartsAssemblyInfo.cache
